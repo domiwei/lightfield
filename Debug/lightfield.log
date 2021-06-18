@@ -1,0 +1,16 @@
+﻿已經開始建置於 2014/2/15 上午 01:56:53。
+     1>節點 2 (build 目標) 上的專案 "C:\Users\kewei\Dropbox\----light field ----\my_code\lightfield\lightfield\lightfield.vcxproj"。
+     1>InitializeBuildStatus:
+         正在變更時間戳記 "Debug\lightfield.unsuccessfulbuild"。
+       ClCompile:
+         所有輸出都是最新的。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kewei\Dropbox\----light field ----\my_code\lightfield\Debug\lightfield.exe" /NOLOGO opencv_core248d.lib opencv_calib3d248d.lib opencv_contrib248d.lib opencv_features2d248d.lib opencv_highgui248d.lib opencv_imgproc248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\lightfield.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\kewei\Dropbox\----light field ----\my_code\lightfield\Debug\lightfield.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kewei\Dropbox\----light field ----\my_code\lightfield\Debug\lightfield.lib" /MACHINE:X86 Debug\4DPatchMatch.obj
+         Debug\4DPoint.obj
+         Debug\main.obj
+     1>opencv_core248d.lib(opencv_core248d.dll) : fatal error LNK1112: 模組電腦類型 'x64' 與目標電腦類型 'X86' 衝突
+     1>專案 "C:\Users\kewei\Dropbox\----light field ----\my_code\lightfield\lightfield\lightfield.vcxproj" (build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:00.45

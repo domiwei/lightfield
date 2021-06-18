@@ -1,0 +1,160 @@
+﻿已經開始建置於 2014/6/5 下午 02:17:34。
+     1>節點 2 (build 目標) 上的專案 "C:\Users\kewei\Dropbox\----light field ----\my_code\lightfield\lightfield\lightfield.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "x64\Debug\lightfield.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _MBCS /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightField.h(51): warning C4244: 'return' : 將 'double' 轉換為 'uchar'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightField.h(53): warning C4244: 'return' : 將 'double' 轉換為 'uchar'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightField.h(87): warning C4244: '=' : 將 'double' 轉換為 'uchar'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightField.h(88): warning C4244: '=' : 將 'double' 轉換為 'uchar'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightField.h(89): warning C4244: '=' : 將 'double' 轉換為 'uchar'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightField.h(90): warning C4244: '=' : 將 'double' 轉換為 'uchar'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\4DPatchMatch.h(17): warning C4244: '引數' : 將 'time_t' 轉換為 'unsigned int'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\4DPatchMatch.h(32): warning C4244: '正在初始化' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\4DPatchMatch.h(51): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\4DPatchMatch.h(24): warning C4101: 'start_time' : 未參考的區域變數
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\4DPatchMatch.h(24): warning C4101: 'end_time' : 未參考的區域變數
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\DepthEstimator.h(56): warning C4244: '=' : 將 'float' 轉換為 'uchar'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\DepthEstimator.h(64): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightFieldRetarget.h(18): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightFieldRetarget.h(19): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightFieldRetarget.h(37): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightFieldRetarget.h(44): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightFieldRetarget.h(62): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightFieldRetarget.h(71): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightFieldReshuffle.h(42): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightFieldReshuffle.h(72): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightFieldReshuffle.h(161): warning C4244: '=' : 將 'double' 轉換為 'uchar'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightFieldReshuffle.h(162): warning C4244: '=' : 將 'double' 轉換為 'uchar'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightFieldReshuffle.h(163): warning C4244: '=' : 將 'double' 轉換為 'uchar'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightFieldReshuffle.h(164): warning C4244: '=' : 將 'double' 轉換為 'uchar'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask.hpp(36): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask.hpp(36): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask.hpp(37): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask.hpp(37): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask.hpp(37): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask.hpp(37): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask.hpp(39): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask.hpp(39): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask.hpp(39): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask.hpp(39): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask.hpp(41): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask.hpp(41): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask.hpp(41): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask.hpp(41): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask.hpp(43): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask.hpp(43): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask.hpp(43): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask.hpp(43): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask_generator.h(86): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask_generator.h(86): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask_generator.h(87): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask_generator.h(87): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask_generator.h(88): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask_generator.h(88): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask_generator.h(89): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\mask_generator.h(89): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\GUI.h(22): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\GUI.h(22): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\GUI.h(27): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\GUI.h(27): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\GUI.h(28): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\GUI.h(28): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>main.cpp(26): warning C4305: '正在初始化' : 從 'double' 轉換為 'float'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>main.cpp(39): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>main.cpp(42): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>main.cpp(42): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>main.cpp(103): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>main.cpp(107): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>main.cpp(121): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>main.cpp(121): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>main.cpp(158): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>main.cpp(190): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>main.cpp(190): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>main.cpp(195): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>main.cpp(195): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>main.cpp(196): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>main.cpp(196): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>main.cpp(215): warning C4244: '=' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>main.cpp(217): warning C4244: '=' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>main.cpp(219): warning C4244: '=' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>main.cpp(221): warning C4244: '=' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightField2.h(33): warning C4244: '=' : 將 'double' 轉換為 'uchar'，由於型別不同，可能導致資料遺失
+                 c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightField2.h(20) : 編譯類別 樣板 成員函式 'LightFieldData<T,vector_size>::LightFieldData(cv::Mat **,int,int)' 時
+                 with
+                 [
+                     T=uchar,
+                     vector_size=1
+                 ]
+                 c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightField.h(28) : 請參閱所要編譯的類別 樣板 具現化 'LightFieldData<T,vector_size>' 的參考
+                 with
+                 [
+                     T=uchar,
+                     vector_size=1
+                 ]
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightField2.h(34): warning C4244: '=' : 將 'double' 轉換為 'uchar'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightField2.h(35): warning C4244: '=' : 將 'double' 轉換為 'uchar'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightField2.h(73): warning C4244: '=' : 將 'double' 轉換為 'uchar'，由於型別不同，可能導致資料遺失
+                 c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightField2.h(70) : 編譯類別 樣板 成員函式 'void LightFieldData<T,vector_size>::set_value(Point4D,cv::Scalar)' 時
+                 with
+                 [
+                     T=uchar,
+                     vector_size=1
+                 ]
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightField2.h(33): warning C4244: '=' : 將 'double' 轉換為 'uchar'，由於型別不同，可能導致資料遺失
+                 c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightField2.h(20) : 編譯類別 樣板 成員函式 'LightFieldData<T,vector_size>::LightFieldData(cv::Mat **,int,int)' 時
+                 with
+                 [
+                     T=uchar,
+                     vector_size=3
+                 ]
+                 c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightField.h(30) : 請參閱所要編譯的類別 樣板 具現化 'LightFieldData<T,vector_size>' 的參考
+                 with
+                 [
+                     T=uchar,
+                     vector_size=3
+                 ]
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightField2.h(34): warning C4244: '=' : 將 'double' 轉換為 'uchar'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightField2.h(35): warning C4244: '=' : 將 'double' 轉換為 'uchar'，由於型別不同，可能導致資料遺失
+     1>c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightField2.h(73): warning C4244: '=' : 將 'double' 轉換為 'uchar'，由於型別不同，可能導致資料遺失
+                 c:\users\kewei\dropbox\----light field ----\my_code\lightfield\lightfield\LightField2.h(70) : 編譯類別 樣板 成員函式 'void LightFieldData<T,vector_size>::set_value(Point4D,cv::Scalar)' 時
+                 with
+                 [
+                     T=uchar,
+                     vector_size=3
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kewei\Dropbox\----light field ----\my_code\lightfield\x64\Debug\lightfield.exe" /NOLOGO opencv_core248d.lib opencv_calib3d248d.lib opencv_contrib248d.lib opencv_features2d248d.lib opencv_highgui248d.lib opencv_imgproc248d.lib opencv_flann248d.lib opencv_nonfree248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\lightfield.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\kewei\Dropbox\----light field ----\my_code\lightfield\x64\Debug\lightfield.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kewei\Dropbox\----light field ----\my_code\lightfield\x64\Debug\lightfield.lib" /MACHINE:X64 x64\Debug\4DPatchMatch.obj
+         x64\Debug\4DPoint.obj
+         x64\Debug\DepthEstimator.obj
+         x64\Debug\GUI.obj
+         x64\Debug\LightFieldPyramid.obj
+         x64\Debug\LightFieldReshuffle.obj
+         x64\Debug\LightFieldRetarget.obj
+         x64\Debug\main.obj
+         LINK : 最後的累加連結找不到或未建置 C:\Users\kewei\Dropbox\----light field ----\my_code\lightfield\x64\Debug\lightfield.exe，正在執行完整連結
+         lightfield.vcxproj -> C:\Users\kewei\Dropbox\----light field ----\my_code\lightfield\x64\Debug\lightfield.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\kewei\Dropbox\----light field ----\my_code\lightfield\x64\Debug\lightfield.exe;#1" /manifest x64\Debug\lightfield.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "x64\Debug\lightfield.unsuccessfulbuild"。
+         正在變更時間戳記 "x64\Debug\lightfield.lastbuildstate"。
+     1>專案 "C:\Users\kewei\Dropbox\----light field ----\my_code\lightfield\lightfield\lightfield.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.96
